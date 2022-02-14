@@ -1,8 +1,19 @@
 .header {
   height: 20vmin;
+  z-index: 10;
   display: flex;
+  background-color: #efecda00;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  width: 100vw;
+  top: 0%;
+  transition: 0.3s ease-in-out 0s;
+
+}
+
+.header:hover {
+  background-color: #efecda;
 }
 
 .logo {
@@ -18,7 +29,6 @@
 
 .special2 {
   transition: 0.3s ease-in-out 0s;
-  background-color: #efecda;
   border-radius: 30px;
 }
 

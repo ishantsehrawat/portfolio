@@ -1,7 +1,11 @@
 import React from "react";
+
 import Header from "../components/Header";
 import Carousel from "../components/Carousel";
 import Work from "../components/Work";
+import AboutHome from "../components/AboutHome";
+import Contact from "../components/Contact";
+
 import circle from "../asset/icons/Ellipse 1.svg";
 import arrowDown from "../asset/icons/Arrow_down.svg";
 
@@ -10,7 +14,7 @@ export default function Home() {
     <div className="homePage">
       <div className="w-full h-screen">
         <Header />
-        <div class="h-2/3 overflow-hidden">
+        <div class="mt-20 h-2/3 overflow-hidden">
           <Carousel />
         </div>
         <div class="flex justify-between mx-24 mt-2/3">
@@ -26,7 +30,9 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <Work />
+      <Work id="work" />
+      <AboutHome />
+      <Contact />
     </div>
   );
 }

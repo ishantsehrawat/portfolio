@@ -1,0 +1,49 @@
+.screen {
+    position: relative;
+    overflow: hidden;
+    height: 300vh;
+}
+
+.circle1 {
+    background-color: black;
+    height: 150vw;
+    width: 150vw;
+    position: absolute;
+    top: 0vh;
+    margin-top: -110vw;
+    margin-left: -10vw;
+    left: 0;
+}
+
+.circle2 {
+    background-color: black;
+    height:  70vw;
+    width: 100vw;
+    top: 23vw;
+    margin-left: -115vw;
+    position: absolute;
+}
+
+.head {
+    z-index: 1;
+    position: absolute;
+    top: 40vh;
+    left: 40vw;
+}
+
+.circle3 {
+    background-color: black;
+    position: absolute;
+    height: 29vw;
+    width: 29vw;
+    left: 10vw;
+    top: 175vh;
+}
+
+.circle4 {
+    background-color: black;
+    height: 100vw;
+    width: 110vw;
+    position: absolute;
+    margin-bottom: -345vh;
+}

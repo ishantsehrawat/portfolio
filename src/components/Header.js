@@ -12,9 +12,11 @@ function header() {
         <img src={logo} className="logo" alt="" />
         {/* <Button1 text="About" link="/work" /> */}
         <div className="menu">
+        {/* <Link to="/about"> */}
           <a href="/about" className="button special2">
             <p>About</p>
           </a>
+        {/* </Link> */}
           <a href="/contact" className="button special1">
             <p>Say Hi!</p>
           </a>
