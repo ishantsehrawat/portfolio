@@ -1,0 +1,58 @@
+.header {
+  height: 20vmin;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 10vmin;
+  margin: 5vmin;
+}
+
+.button {
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.special2 {
+  transition: 0.3s ease-in-out 0s;
+  background-color: #efecda;
+  border-radius: 30px;
+}
+
+.special2:hover {
+  transform: scale(1.25);
+  color: black;
+}
+
+.special1 {
+  background-color: black;
+  color: white;
+  height: fit-content;
+  border-radius: 100;
+  padding: 1vmin 3.5vmin 1vmin 3.5vmin;
+  border-radius: 30px;
+  border: 2px solid;
+  border-color: black;
+  transition: 0.3s ease-in-out 0s;
+}
+
+.special1:hover {
+  color: black;
+  background-color: #efecda;
+  border: 2px solid;
+}
+
+a {
+  text-decoration: none;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30vmin;
+  margin: 5vmin;
+}

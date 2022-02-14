@@ -1,0 +1,17 @@
+.heading {
+  font-size: 260px;
+  color: #fffdf2;
+  font-weight: 700;
+}
+
+.project {
+  height: 450px;
+  width: 500px;
+  border-radius: 17px;
+  background-color: #23201f;
+}
+
+.projectImage {
+  height: 380px;
+  width: 500px;
+}

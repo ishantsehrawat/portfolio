@@ -1,0 +1,8 @@
+.homePage {
+  display: flex;
+  flex-direction: column;
+}
+
+.screen1 {
+  min-height: 100vh;
+}
