@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../asset/images/logo.svg";
+import { Link } from "react-router-dom";
 // import Button1 from "./Button1";
 // import { Link } from "react-router-dom";
 
@@ -13,13 +14,13 @@ function header() {
         {/* <Button1 text="About" link="/work" /> */}
         <div className="menu">
         {/* <Link to="/about"> */}
-          <a href="/about" className="button special2">
+          <Link to="/about" className="button special2">
             <p>About</p>
-          </a>
+          </Link>
         {/* </Link> */}
-          <a href="/contact" className="button special1">
+          <Link to="/contact" className="button special1">
             <p>Say Hi!</p>
-          </a>
+          </Link>
         </div>
       </div>
     </div>
