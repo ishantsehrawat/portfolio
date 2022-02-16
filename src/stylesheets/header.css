@@ -9,7 +9,19 @@
   width: 100vw;
   top: 0%;
   transition: 0.3s ease-in-out 0s;
+}
 
+.contactheader {
+  height: 20vmin;
+  z-index: 10;
+  display: flex;
+  background-color: #efecda00;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100vw;
+  top: 0%;
+  transition: 0.3s ease-in-out 0s;
 }
 
 .header:hover {

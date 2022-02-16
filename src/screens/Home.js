@@ -1,19 +1,38 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-import Header from "../components/Header";
 import Carousel from "../components/Carousel";
 import Work from "../components/Work";
 import AboutHome from "../components/AboutHome";
 import Contact from "../components/Contact";
+import '../stylesheets/header.css';
 
 import circle from "../asset/icons/Ellipse 1.svg";
 import arrowDown from "../asset/icons/Arrow_down.svg";
+import logo from "../asset/images/logo.svg";
+
 
 export default function Home() {
   return (
     <div className="homePage">
       <div className="w-full h-screen">
-        <Header />
+
+        {/* -----------------HEADER------------------ */}
+        <div className="header">
+          <Link to='/'>
+            <img src={logo} className="logo" alt="" />
+          </Link>
+          <div className="menu">
+            
+            <Link to="/about" className="button special2">
+              <p>About</p>
+            </Link>
+            <Link to="/contact" className="button special1">
+              <p>Say Hi!</p>
+            </Link>
+          </div>
+        </div>
+
         <div class="mt-20 h-2/3 overflow-hidden">
           <Carousel />
         </div>

@@ -1,0 +1,14 @@
+.MainScreen {
+  width: 100vw;
+  position: relative;
+}
+
+.name {
+  font-size: 120px;
+}
+
+.intro {
+  position: absolute;
+  top: 0;
+  right: 0;
+}

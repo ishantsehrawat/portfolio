@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 import circle from "../asset/icons/Ellipse 1.svg";
 import arrowRight from "../asset/icons/Arrow_right.svg";
 
-import "../stylesheets/AboutHome.css"
+import "../stylesheets/AboutHome.css";
 
 
 function AboutHome() {
@@ -33,11 +34,11 @@ function AboutHome() {
             My Curious nature and experimenting new ideas makes me different from other developers.
             <br/><br/>
             </p>
-            <a href='/about' className="flex m-3">
+            <Link to='/about' className="flex m-3">
                 <img src={circle} className="m-2 h-4" alt="" />
                 <p className="font-bold mx-2 text-pink-600 text-lg">Read More</p>
                 <img src={arrowRight} className="m-1 h-6" alt="" />
-            </a>
+            </Link>
         </div>
     </div>
   )
