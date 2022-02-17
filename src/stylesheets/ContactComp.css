@@ -3,4 +3,18 @@
   font-weight: 700;
 }
 
+h2 {
+  transition: 0.3s ease-in-out 0s;
+}
 
+h2 .whileHover {
+  display: none;
+}
+
+h2:hover .main {
+  display: none;
+}
+
+h2:hover .whileHover {
+  display: inline;
+}
