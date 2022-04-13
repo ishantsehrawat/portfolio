@@ -51,7 +51,7 @@ function ContactPage() {
           <Link to="/about" className="button special2">
             <p className="text-white">About</p>
           </Link>
-          <Link to="/work" className="button special2">
+          <Link to="/work/netflix" className="button special2">
             <p className="text-white">Work</p>
           </Link>
         </div>

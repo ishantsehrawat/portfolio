@@ -9,6 +9,11 @@
   width: 500px;
   border-radius: 17px;
   background-color: #23201f;
+  transition: all 0.2s ease-in-out;
+}
+
+.project:hover {
+  transform: scale(1.03);
 }
 
 .projectImage {

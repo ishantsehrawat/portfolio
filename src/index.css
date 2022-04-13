@@ -11,6 +11,14 @@ body {
   background-color: #efecda;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body::-webkit-scrollbar {
   display: none;
+}
+
+.work {
+  background-color: #1e0000;
 }
